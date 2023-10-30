@@ -1,18 +1,19 @@
 {
-  "name": "clean-node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "husky": "4.0.0",
-    "jest": "24.9.0",
-    "lint-staged": "9.4.3",
-    "standard": "14.3.1"
-  }
+    "name": "clean-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --watchAll",
+        "test:staged": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "husky": "4.0.0",
+        "jest": "24.9.0",
+        "lint-staged": "9.4.3",
+        "standard": "14.3.1"
+    }
 }
